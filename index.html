@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chifumi Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="titre titre-forme">
+            Bienvenue au jeu du chifumi version geek
+        </div>
+
+        <div class="jeux">
+            <div id="mes-points">
+                
+            </div>
+
+            <div id="mes-choix">   
+                    <img id="choixpierre" src="./assets/pierre.jpg" alt="pierre">
+                    <img id="choixpapier" src="./assets/feuille.jpg" alt="papier">
+                    <img id="choixciseau" src="./assets/ciseaux.jpg" alt="ciseau">
+                    <img id="choixlezard" src="./assets/lezard.jpg" alt="lezard">
+                    <img id="choixspock" src="./assets/spock.jpg" alt="spock">
+            </div>
+
+            <div id="resultat">
+                Commencez à jouer !
+            </div>
+
+            <div id="choix-ia">
+                <!-- <div>
+                    <img src="/img/pierre.jpg" alt="pierre">
+                </div> -->
+            </div>
+
+            <div id="points-ia">
+              
+            </div>
+        </div>
+        
+        <div class="titre-regles">
+            <div class="titre-forme">Règles du jeu :</div>
+            <div>Cliquez sur une des images pour jouer</div>
+        </div>
+        
+        <div class="regles">
+            <div class="pierre">
+                <div>
+                    <img src="./assets/pierre.jpg" alt="pierre">
+                </div>
+                <div class="txt-left">
+                    Pierre
+                </div>
+                <div class="txt-left">
+                    La pierre écrase le lézard<br>
+                    La pierre écrase les ciseaux
+                </div>
+            </div>
+            <div class="papier">
+                <div>
+                    <img src="./assets/feuille.jpg" alt="papier">
+                </div>
+                <div class="txt-left">
+                    Papier
+                </div>
+                <div class="txt-left">
+                    Le papier enveloppe la pierre<br>
+                    Le papier désavoue Spock
+                </div>
+            </div>
+            <div class="ciseau">
+                <div>
+                    <img src="./assets/ciseaux.jpg" alt="ciseau">
+                </div>
+                <div class="txt-left">
+                   Ciseaux
+                </div>
+                <div class="txt-left">
+                    Les ciseaux coupent le papier<br>
+                    Les ciseaux décapitent le lézard
+                </div>
+            </div>
+            <div class="lezard">
+                <div>
+                    <img src="./assets/lezard.jpg" alt="lezard">
+                </div>
+                <div class="txt-left">
+                   Lezard
+                </div>
+                <div class="txt-left">
+                    Le lézard empoisonne Spock<br>
+                    Le lézard mange le papier
+                </div>
+            </div>
+            <div class="spock">
+                <div>
+                    <img src="./assets/spock.jpg" alt="spock">
+                </div>
+                <div class="txt-left">
+                   Spock
+                </div>
+                <div class="txt-left">
+                    Spock écrase les ciseaux<br>
+                    Spock détruit la pierre 
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

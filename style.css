@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.titre{
+    height: 90vh;
+    width: 90vw;
+}
+
+.jeux{
+    height: 90vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+}
+
+.regles{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.pierre img, .papier img, .ciseau img, .lezard img, .spock img{
+    height: 50px;
+    width: 50px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.pierre, .papier, .ciseau, .lezard, .spock{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 6vh;
+    width: 40vw;
+    align-content: flex-start;
+}
+
+.titre-forme{
+    height: 6vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#mes-points, #points-ia{
+    font-size: 10em;
+}
+
+#resultat, #mes-points, #points-ia, #choix-ia{
+    align-self: center;
+    justify-self: center;
+}
+
+#mes-choix{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+}
+
+.txt-left{
+    flex: content;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.hide{
+    opacity: 0.2;
+}
+.show{
+    opacity: 1;
+}
